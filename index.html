@@ -93,7 +93,7 @@
                     objLoader.setPath( 'Pikachu/' );
                     objLoader.load( 'Pikachu.obj', function ( object ) {
 
-                        object.position.y = - 95;
+                        object.position.y = -0;
                         scene.add( object );
 
                     }, onProgress, onError );
@@ -148,7 +148,7 @@
                 camera.position.x += ( mouseX - camera.position.x ) * .05;
                 camera.position.y += ( - mouseY - camera.position.y ) * .05;
 
-                camera.lookAt( scene.position );
+                camera.lookAt( scene.object,position);
 
                 renderer.render( scene, camera );
 
