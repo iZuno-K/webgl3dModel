@@ -56,7 +56,7 @@
                 document.body.appendChild( container );
 
                 camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 2000 );
-                camera.position.z = 50;
+                camera.position.z = 10;
 
                 // scene
 
@@ -93,7 +93,7 @@
                     objLoader.setPath( 'Pikachu/' );
                     objLoader.load( 'Pikachu.obj', function ( object ) {
 
-                        object.position.y = 0;
+                        object.position.y = -10;
                         scene.add( object );
 
                     }, onProgress, onError );
