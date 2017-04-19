@@ -108,7 +108,7 @@
                 renderer.setSize( window.innerWidth, window.innerHeight );
                 container.appendChild( renderer.domElement );
 
-                document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+                // document.addEventListener( 'mousemove', onDocumentMouseMove, false );
 
                 //
 
@@ -146,8 +146,8 @@
 
             function render() {
 
-                camera.position.x += ( mouseX - camera.position.x ) * .05;
-                camera.position.y += ( - mouseY - camera.position.y ) * .05;
+                // camera.position.x += ( mouseX - camera.position.x ) * .05;
+                // camera.position.y += ( - mouseY - camera.position.y ) * .05;
 
                 camera.lookAt( scene.position);
 
