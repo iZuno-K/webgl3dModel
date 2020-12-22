@@ -1,2 +1,3 @@
 # webgl3dModel
-my practice to use 3d model with webgl
+use 3d model with webgl
+https://izuno-k.github.io/webgl3dModel/
